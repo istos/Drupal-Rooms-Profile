@@ -432,6 +432,9 @@ function drupalrooms_install() {
   // Set the right pages so we can see colobox in admin pages
   variable_set('colorbox_pages', "img_assist*\nimce*\nnode/add/*\nnode/*/edit");
 
+  // Set the starting day of the week so date will not complain
+  variable_set('date_first_day', 1);
+
   // Create a room type entity
   $rooms_type_standard = array(
     'type' => 'standard',

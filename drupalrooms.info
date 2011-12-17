@@ -35,6 +35,8 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = date
 dependencies[] = date_popup
+dependencies[] = features
+dependencies[] = libraries
 
 
 ; Install the Commerce modules.
@@ -60,6 +62,12 @@ dependencies[] = commerce_product_reference
 dependencies[] = commerce_tax
 dependencies[] = commerce_tax_ui
 
+; Install modules for doing locaiton
+dependencies[] = geofield
+dependencies[] = geofield_map
+dependencies[] = geocoder
+dependencies[] = leaflet
+
 ;Install the Rooms modules
 dependencies[] = rooms
 dependencies[] = rooms_ui
@@ -69,6 +77,9 @@ dependencies[] = rooms_pricing
 dependencies[] = rooms_booking
 dependencies[] = rooms_booking_manager
 dependencies[] = rooms_availability_reference
+
+;Install Rooms-related features
+dependencies[] = rooms_location
 
 
 

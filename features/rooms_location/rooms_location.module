@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Rooms Location feature.
+ */
+
+include_once('rooms_location.features.inc');

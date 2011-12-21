@@ -81,6 +81,7 @@ dependencies[] = rooms_availability_reference
 
 ;Install Rooms-related features
 dependencies[] = rooms_location
+dependencies[] = rooms_rates
 
 
 

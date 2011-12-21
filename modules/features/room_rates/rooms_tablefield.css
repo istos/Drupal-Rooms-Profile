@@ -1,0 +1,10 @@
+.node-rates-form .field-widget-tablefield .form-tablefield .form-text, .node-rates-form .form-tablefield .form-text {
+	font-size:14px;
+	padding:2px;
+	margin:2px;
+}
+
+.node-rates-form .field-widget-tablefield .form-tablefield table tr td, .node-rates-form .form-tablefield table tr td{
+	padding:5px;
+	margin:5px;
+}

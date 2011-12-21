@@ -1,0 +1,12 @@
+core = "7.x"
+stylesheets[all][] = rooms_tablefield.css
+dependencies[] = "features"
+dependencies[] = "tablefield"
+description = "Provides a content type to show fixed rates"
+features[field][] = "node-rates-field_rooms_rates_details"
+features[field][] = "node-rates-field_rooms_rates_table"
+features[node][] = "rates"
+name = "Room Rates"
+package = "Features"
+project = "room_rates"
+version = "7.x-1.0"

@@ -58,7 +58,7 @@ function room_rates_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'field_rooms_rates_details',
-      'label' => 'Rates Detials',
+      'label' => 'Rates Details',
       'required' => 0,
       'settings' => array(
         'text_processing' => '1',

@@ -25,15 +25,11 @@ projects[i18n][subdir] = contrib
 projects[i18n][version] = "1.3"
 projects[tablefield][subdir] = contrib
 projects[tablefield][version] = "2.0-beta6"
-
-# Libraries is required by for now geofield takes care of it. 
-# Not quite sure how to stop the geofield nested make file from running 
-# which means that for now we will have to trust it to do it.
-#projects[libraries][version] = "1.0"
-
+projects[features][subdir] = contrib
 projects[features][version] = "1.0-beta4"
 
 ;Rooms
+projects[rooms][subdir] = contrib
 projects[rooms][download][type] = "git"
 projects[rooms][download][module] = "rooms"
 projects[rooms][download][revision] = "master"

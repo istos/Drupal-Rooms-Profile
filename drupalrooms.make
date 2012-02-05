@@ -5,16 +5,26 @@
 core = 7.x
 api = 2
 
+projects[ctools][subdir] = contrib
 projects[ctools][version] = "1.0-rc1"
+projects[views][subdir] = contrib
 projects[views][version] = "3.1"
+projects[entity][subdir] = contrib
 projects[entity][version] = "1.0-rc1"
+projects[rules][subdir] = contrib
 projects[rules][version] = "2.0"
+projects[commerce][subdir] = contrib
 projects[commerce][version] = "1.2"
+projects[date][subdir] = contrib
 projects[date][version] = "2.0-rc2"
+projects[addressfield][subdir] = contrib
 projects[addressfield][version] = "1.0-beta2"
+projects[colorbox][subdir] = contrib
 projects[colorbox][version] = "1.2"
-projects['i18n']['version'] = "1.3"
-projects['tablefield']['version'] = "2.0-beta6"
+projects[i18n][subdir] = contrib
+projects[i18n][version] = "1.3"
+projects[tablefield][subdir] = contrib
+projects[tablefield][version] = "2.0-beta6"
 
 # Libraries is required by for now geofield takes care of it. 
 # Not quite sure how to stop the geofield nested make file from running 

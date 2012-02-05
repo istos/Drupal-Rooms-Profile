@@ -1,19 +1,9 @@
 ; Rooms Make File
 ; ---------------
 ; Brings together all the modules and libraries required to run Rooms
-;
-; Run with command drush make --prepare-install --contrib-destination=sites/all rooms.make
 
 core = 7.x
 api = 2
-
-;Core project
-projects[] = drupal
-
-;Rooms Profile
-projects[drupalrooms][type] = profile
-projects[drupalrooms][download][type] = git
-projects[drupalrooms][download][url] = git@github.com:istos/Drupal-Rooms-Profile.git
 
 projects[ctools][version] = "1.0-rc1"
 projects[views][version] = "3.1"
@@ -23,7 +13,7 @@ projects[commerce][version] = "1.2"
 projects[date][version] = "2.0-rc2"
 projects[addressfield][version] = "1.0-beta2"
 projects[colorbox][version] = "1.2"
-projects['i18n']['version'] = "1.2"
+projects['i18n']['version'] = "1.3"
 projects['tablefield']['version'] = "2.0-beta6"
 
 # Libraries is required by for now geofield takes care of it. 

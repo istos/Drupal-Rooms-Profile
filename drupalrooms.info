@@ -74,7 +74,7 @@ dependencies[] = rooms_booking_manager
 dependencies[] = rooms_availability_reference
 
 ;Install Rooms-related features
-dependencies[] = rooms_rates
+dependencies[] = room_rates
 
 
 

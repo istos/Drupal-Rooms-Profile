@@ -27,6 +27,8 @@ projects[tablefield][subdir] = contrib
 projects[tablefield][version] = "2.0-beta6"
 projects[features][subdir] = contrib
 projects[features][version] = "1.0-beta4"
+projects[libraries][subdir] = contrib
+projects[libraries][version] = "7.x-2.1"
 
 ;Rooms
 projects[rooms][subdir] = contrib

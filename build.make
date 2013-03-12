@@ -2,7 +2,7 @@
 ; ---------------
 ; Brings together all the modules and libraries required to run Rooms
 ;
-; Run with command drush make --prepare-install --contrib-destination=sites/all rooms.make
+; Run with command drush make --prepare-install --contrib-destination=sites/all drupalrooms.make www
 
 
 core = 7.x
